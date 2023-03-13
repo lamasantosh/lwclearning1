@@ -1,0 +1,17 @@
+<template>
+        <lightning-card title="HelloExpressions" icon-name="custom:custom15">
+            <div class="slds-var-m-around_medium">
+                <lightning-input
+                    name="firstName"
+                    label="Enter First Name"
+                    onchange={handleChange}
+                ></lightning-input>
+                <lightning-input
+                name="lastName"
+                label="Enter Last Name"
+                onchange={handleChange}
+                ></lightning-input>
+            </div>
+                <div class="slds-var-m-top_medium">Uppercased Full Name: {uppercasedFullName}</div>
+        </lightning-card>
+</template>

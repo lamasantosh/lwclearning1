@@ -1,0 +1,17 @@
+<template>
+    <lightning-card title="HelloExpressions" icon-name="custom:custom16">
+        <div class="slds-var-m-around_medium">
+            <lightning-input 
+                type="checkbox"
+                label="click to check"
+                onchange={checkValue}
+            ></lightning-input>
+        </div>
+        <div>
+            <template lwc:if ={changeTheValue}>
+                    you get the detail part
+            </template>
+            <template lwc:else> Nothing to show</template>
+        </div>
+    </lightning-card>
+</template>
