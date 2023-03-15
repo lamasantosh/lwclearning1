@@ -1,0 +1,1013 @@
+{
+  "serverMaxRevisionCounter": 204,
+  "sourceMembers": {
+    "ListView__Account.All_Acounts": {
+      "serverRevisionCounter": 174,
+      "lastRetrievedFromServer": null,
+      "memberType": "ListView",
+      "isNameObsolete": false
+    },
+    "ListView__Case.My_Cases": {
+      "serverRevisionCounter": 175,
+      "lastRetrievedFromServer": null,
+      "memberType": "ListView",
+      "isNameObsolete": false
+    },
+    "ListView__Product_Family__c.All_Product_Families": {
+      "serverRevisionCounter": 176,
+      "lastRetrievedFromServer": null,
+      "memberType": "ListView",
+      "isNameObsolete": false
+    },
+    "ListView__Product__c.ProductList": {
+      "serverRevisionCounter": 177,
+      "lastRetrievedFromServer": null,
+      "memberType": "ListView",
+      "isNameObsolete": false
+    },
+    "CustomField__Order_Item__c.Order__c": {
+      "serverRevisionCounter": 35,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Case.Case_Category__c": {
+      "serverRevisionCounter": 37,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Case.Product__c": {
+      "serverRevisionCounter": 38,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Manufacturing_Event__e.Order_Id__c": {
+      "serverRevisionCounter": 40,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Manufacturing_Event__e.Status__c": {
+      "serverRevisionCounter": 41,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Order_Item__c.Price__c": {
+      "serverRevisionCounter": 42,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Order_Item__c.Product__c": {
+      "serverRevisionCounter": 43,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Order_Item__c.Qty_L__c": {
+      "serverRevisionCounter": 45,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Order_Item__c.Qty_M__c": {
+      "serverRevisionCounter": 46,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Order_Item__c.Qty_S__c": {
+      "serverRevisionCounter": 47,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Order__c.Account__c": {
+      "serverRevisionCounter": 48,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Order__c.Status__c": {
+      "serverRevisionCounter": 50,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Product_Family__c.Category__c": {
+      "serverRevisionCounter": 51,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Product_Family__c.Description__c": {
+      "serverRevisionCounter": 52,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Product__c.Battery__c": {
+      "serverRevisionCounter": 53,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Product__c.Category__c": {
+      "serverRevisionCounter": 54,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Product__c.Charger__c": {
+      "serverRevisionCounter": 55,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Product__c.Description__c": {
+      "serverRevisionCounter": 56,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Product__c.Fork__c": {
+      "serverRevisionCounter": 57,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Product__c.Frame_Color__c": {
+      "serverRevisionCounter": 58,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Product__c.Front_Brakes__c": {
+      "serverRevisionCounter": 59,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Product__c.Handlebar_Color__c": {
+      "serverRevisionCounter": 60,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Product__c.Level__c": {
+      "serverRevisionCounter": 61,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Product__c.MSRP__c": {
+      "serverRevisionCounter": 62,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Product__c.Material__c": {
+      "serverRevisionCounter": 63,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Product__c.Motor__c": {
+      "serverRevisionCounter": 64,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Product__c.Picture_URL__c": {
+      "serverRevisionCounter": 65,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Product__c.Product_Family__c": {
+      "serverRevisionCounter": 66,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Product__c.Rear_Brakes__c": {
+      "serverRevisionCounter": 68,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Product__c.Seat_Color__c": {
+      "serverRevisionCounter": 69,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__Product__c.Waterbottle_Color__c": {
+      "serverRevisionCounter": 70,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "Profile__Admin": {
+      "serverRevisionCounter": 27,
+      "lastRetrievedFromServer": null,
+      "memberType": "Profile",
+      "isNameObsolete": false
+    },
+    "Layout__Case-Case Layout": {
+      "serverRevisionCounter": 178,
+      "lastRetrievedFromServer": null,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "Layout__CaseClose-Close Case Layout": {
+      "serverRevisionCounter": 179,
+      "lastRetrievedFromServer": null,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "Layout__Order_Item__c-Order Item Layout": {
+      "serverRevisionCounter": 180,
+      "lastRetrievedFromServer": null,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "Layout__Order__c-Order Layout": {
+      "serverRevisionCounter": 181,
+      "lastRetrievedFromServer": null,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "Layout__Product_Family__c-Product Family Layout": {
+      "serverRevisionCounter": 182,
+      "lastRetrievedFromServer": null,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "Layout__Product__c-Product Layout": {
+      "serverRevisionCounter": 183,
+      "lastRetrievedFromServer": null,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "CustomObject__Manufacturing_Event__e": {
+      "serverRevisionCounter": 169,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomObject",
+      "isNameObsolete": false
+    },
+    "CustomObject__Order_Item__c": {
+      "serverRevisionCounter": 170,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomObject",
+      "isNameObsolete": false
+    },
+    "CustomObject__Order__c": {
+      "serverRevisionCounter": 171,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomObject",
+      "isNameObsolete": false
+    },
+    "CustomObject__Product_Family__c": {
+      "serverRevisionCounter": 172,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomObject",
+      "isNameObsolete": false
+    },
+    "CustomObject__Product__c": {
+      "serverRevisionCounter": 173,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomObject",
+      "isNameObsolete": false
+    },
+    "ApexClass__CommunitiesLandingController": {
+      "serverRevisionCounter": 71,
+      "lastRetrievedFromServer": null,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "ApexClass__CommunitiesLandingControllerTest": {
+      "serverRevisionCounter": 72,
+      "lastRetrievedFromServer": null,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "ApexClass__HeroDetailsPositionCustomPicklist": {
+      "serverRevisionCounter": 73,
+      "lastRetrievedFromServer": null,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "ApexClass__OrderController": {
+      "serverRevisionCounter": 74,
+      "lastRetrievedFromServer": null,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "ApexClass__PagedResult": {
+      "serverRevisionCounter": 75,
+      "lastRetrievedFromServer": null,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "ApexClass__ProductController": {
+      "serverRevisionCounter": 76,
+      "lastRetrievedFromServer": null,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "ApexClass__ProductRecordInfoController": {
+      "serverRevisionCounter": 77,
+      "lastRetrievedFromServer": null,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "ApexClass__TestOrderController": {
+      "serverRevisionCounter": 78,
+      "lastRetrievedFromServer": null,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "ApexClass__TestProductController": {
+      "serverRevisionCounter": 79,
+      "lastRetrievedFromServer": null,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "CustomTab__Order__c": {
+      "serverRevisionCounter": 188,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomTab",
+      "isNameObsolete": false
+    },
+    "CustomTab__Product_Explorer": {
+      "serverRevisionCounter": 189,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomTab",
+      "isNameObsolete": false
+    },
+    "CustomTab__Product_Family__c": {
+      "serverRevisionCounter": 190,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomTab",
+      "isNameObsolete": false
+    },
+    "CustomTab__Product__c": {
+      "serverRevisionCounter": 191,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomTab",
+      "isNameObsolete": false
+    },
+    "CustomApplication__EBikes": {
+      "serverRevisionCounter": 192,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomApplication",
+      "isNameObsolete": false
+    },
+    "ContentAsset__ebikeslogo": {
+      "serverRevisionCounter": 193,
+      "lastRetrievedFromServer": null,
+      "memberType": "ContentAsset",
+      "isNameObsolete": false
+    },
+    "ContentAsset__logo": {
+      "serverRevisionCounter": 194,
+      "lastRetrievedFromServer": null,
+      "memberType": "ContentAsset",
+      "isNameObsolete": false
+    },
+    "ApexPage__CommunitiesLanding": {
+      "serverRevisionCounter": 168,
+      "lastRetrievedFromServer": null,
+      "memberType": "ApexPage",
+      "isNameObsolete": false
+    },
+    "StaticResource__bike_assets": {
+      "serverRevisionCounter": 80,
+      "lastRetrievedFromServer": null,
+      "memberType": "StaticResource",
+      "isNameObsolete": false
+    },
+    "CspTrustedSite__s3_us_west_1_amazonaws_com": {
+      "serverRevisionCounter": 196,
+      "lastRetrievedFromServer": null,
+      "memberType": "CspTrustedSite",
+      "isNameObsolete": false
+    },
+    "AuraDefinitionBundle__pageTemplate_2_7_3": {
+      "serverRevisionCounter": 163,
+      "lastRetrievedFromServer": null,
+      "memberType": "AuraDefinitionBundle",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__pageTemplate_2_7_3/pageTemplate_2_7_3.cmp": {
+      "serverRevisionCounter": 164,
+      "lastRetrievedFromServer": null,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__pageTemplate_2_7_3/pageTemplate_2_7_3.css": {
+      "serverRevisionCounter": 165,
+      "lastRetrievedFromServer": null,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__pageTemplate_2_7_3/pageTemplate_2_7_3.design": {
+      "serverRevisionCounter": 166,
+      "lastRetrievedFromServer": null,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "AuraDefinition__pageTemplate_2_7_3/pageTemplate_2_7_3.svg": {
+      "serverRevisionCounter": 167,
+      "lastRetrievedFromServer": null,
+      "memberType": "AuraDefinition",
+      "isNameObsolete": false
+    },
+    "Network__E-Bikes": {
+      "serverRevisionCounter": 200,
+      "lastRetrievedFromServer": null,
+      "memberType": "Network",
+      "isNameObsolete": false
+    },
+    "CustomSite__E_Bikes": {
+      "serverRevisionCounter": 197,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomSite",
+      "isNameObsolete": false
+    },
+    "ExperienceBundle__E_Bikes1": {
+      "serverRevisionCounter": 199,
+      "lastRetrievedFromServer": null,
+      "memberType": "ExperienceBundle",
+      "isNameObsolete": false
+    },
+    "NavigationMenu__Default_Navigation": {
+      "serverRevisionCounter": 201,
+      "lastRetrievedFromServer": null,
+      "memberType": "NavigationMenu",
+      "isNameObsolete": false
+    },
+    "FlexiPage__Account_Record_Page": {
+      "serverRevisionCounter": 184,
+      "lastRetrievedFromServer": null,
+      "memberType": "FlexiPage",
+      "isNameObsolete": false
+    },
+    "FlexiPage__Order_Record_Page": {
+      "serverRevisionCounter": 185,
+      "lastRetrievedFromServer": null,
+      "memberType": "FlexiPage",
+      "isNameObsolete": false
+    },
+    "FlexiPage__Product_Explorer": {
+      "serverRevisionCounter": 186,
+      "lastRetrievedFromServer": null,
+      "memberType": "FlexiPage",
+      "isNameObsolete": false
+    },
+    "FlexiPage__Product_Record_Page": {
+      "serverRevisionCounter": 187,
+      "lastRetrievedFromServer": null,
+      "memberType": "FlexiPage",
+      "isNameObsolete": false
+    },
+    "PermissionSet__ebikes": {
+      "serverRevisionCounter": 195,
+      "lastRetrievedFromServer": null,
+      "memberType": "PermissionSet",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__accountMap": {
+      "serverRevisionCounter": 83,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__createCase": {
+      "serverRevisionCounter": 87,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__errorPanel": {
+      "serverRevisionCounter": 92,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__hero": {
+      "serverRevisionCounter": 97,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__heroDetails": {
+      "serverRevisionCounter": 102,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__ldsUtils": {
+      "serverRevisionCounter": 107,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__orderBuilder": {
+      "serverRevisionCounter": 110,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__orderItemTile": {
+      "serverRevisionCounter": 115,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__orderStatusPath": {
+      "serverRevisionCounter": 120,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__paginator": {
+      "serverRevisionCounter": 124,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__placeholder": {
+      "serverRevisionCounter": 128,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__productCard": {
+      "serverRevisionCounter": 133,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__productFilter": {
+      "serverRevisionCounter": 138,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__productListItem": {
+      "serverRevisionCounter": 143,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__productTile": {
+      "serverRevisionCounter": 148,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__productTileList": {
+      "serverRevisionCounter": 153,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentBundle__similarProducts": {
+      "serverRevisionCounter": 158,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentBundle",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__productFilter/productFilter.js-meta.xml": {
+      "serverRevisionCounter": 142,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__productFilter/productFilter.css": {
+      "serverRevisionCounter": 141,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__productFilter/productFilter.html": {
+      "serverRevisionCounter": 139,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__productFilter/productFilter.js": {
+      "serverRevisionCounter": 140,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__heroDetails/heroDetails.js-meta.xml": {
+      "serverRevisionCounter": 103,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__heroDetails/heroDetails.js": {
+      "serverRevisionCounter": 104,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__heroDetails/heroDetails.css": {
+      "serverRevisionCounter": 105,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__heroDetails/heroDetails.html": {
+      "serverRevisionCounter": 106,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__hero/hero.html": {
+      "serverRevisionCounter": 98,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__hero/hero.js": {
+      "serverRevisionCounter": 99,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__hero/hero.css": {
+      "serverRevisionCounter": 100,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__hero/hero.js-meta.xml": {
+      "serverRevisionCounter": 101,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__productTile/productTile.js": {
+      "serverRevisionCounter": 149,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__productTile/productTile.html": {
+      "serverRevisionCounter": 150,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__productTile/productTile.css": {
+      "serverRevisionCounter": 151,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__productTile/productTile.js-meta.xml": {
+      "serverRevisionCounter": 152,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__productTileList/productTileList.html": {
+      "serverRevisionCounter": 154,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__productTileList/productTileList.css": {
+      "serverRevisionCounter": 155,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__productTileList/productTileList.js-meta.xml": {
+      "serverRevisionCounter": 156,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__productTileList/productTileList.js": {
+      "serverRevisionCounter": 157,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__productListItem/productListItem.js-meta.xml": {
+      "serverRevisionCounter": 144,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__productListItem/productListItem.css": {
+      "serverRevisionCounter": 145,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__productListItem/productListItem.js": {
+      "serverRevisionCounter": 146,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__productListItem/productListItem.html": {
+      "serverRevisionCounter": 147,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__productCard/productCard.js-meta.xml": {
+      "serverRevisionCounter": 134,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__productCard/productCard.js": {
+      "serverRevisionCounter": 135,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__productCard/productCard.html": {
+      "serverRevisionCounter": 136,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__productCard/productCard.css": {
+      "serverRevisionCounter": 137,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__orderItemTile/orderItemTile.css": {
+      "serverRevisionCounter": 116,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__orderItemTile/orderItemTile.js": {
+      "serverRevisionCounter": 117,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__orderItemTile/orderItemTile.html": {
+      "serverRevisionCounter": 118,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__orderItemTile/orderItemTile.js-meta.xml": {
+      "serverRevisionCounter": 119,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__accountMap/accountMap.js": {
+      "serverRevisionCounter": 84,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__accountMap/accountMap.js-meta.xml": {
+      "serverRevisionCounter": 85,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__accountMap/accountMap.html": {
+      "serverRevisionCounter": 86,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__similarProducts/similarProducts.css": {
+      "serverRevisionCounter": 159,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__similarProducts/similarProducts.html": {
+      "serverRevisionCounter": 160,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__similarProducts/similarProducts.js": {
+      "serverRevisionCounter": 161,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__similarProducts/similarProducts.js-meta.xml": {
+      "serverRevisionCounter": 162,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__errorPanel/templates/noDataIllustration.html": {
+      "serverRevisionCounter": 93,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__errorPanel/templates/inlineMessage.html": {
+      "serverRevisionCounter": 94,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__errorPanel/errorPanel.js": {
+      "serverRevisionCounter": 95,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__errorPanel/errorPanel.js-meta.xml": {
+      "serverRevisionCounter": 96,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__createCase/createCase.js": {
+      "serverRevisionCounter": 89,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__createCase/createCase.html": {
+      "serverRevisionCounter": 90,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__createCase/createCase.js-meta.xml": {
+      "serverRevisionCounter": 91,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__createCase/createCase.css": {
+      "serverRevisionCounter": 88,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__ldsUtils/ldsUtils.js-meta.xml": {
+      "serverRevisionCounter": 108,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__ldsUtils/ldsUtils.js": {
+      "serverRevisionCounter": 109,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__placeholder/placeholder.js-meta.xml": {
+      "serverRevisionCounter": 129,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__placeholder/placeholder.html": {
+      "serverRevisionCounter": 130,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__placeholder/placeholder.css": {
+      "serverRevisionCounter": 131,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__placeholder/placeholder.js": {
+      "serverRevisionCounter": 132,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__paginator/paginator.js": {
+      "serverRevisionCounter": 125,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__paginator/paginator.js-meta.xml": {
+      "serverRevisionCounter": 126,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__paginator/paginator.html": {
+      "serverRevisionCounter": 127,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__orderBuilder/orderBuilder.js": {
+      "serverRevisionCounter": 111,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__orderBuilder/orderBuilder.js-meta.xml": {
+      "serverRevisionCounter": 112,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__orderBuilder/orderBuilder.html": {
+      "serverRevisionCounter": 113,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__orderBuilder/orderBuilder.css": {
+      "serverRevisionCounter": 114,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__orderStatusPath/orderStatusPath.js-meta.xml": {
+      "serverRevisionCounter": 121,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__orderStatusPath/orderStatusPath.html": {
+      "serverRevisionCounter": 122,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "LightningComponentResource__orderStatusPath/orderStatusPath.js": {
+      "serverRevisionCounter": 123,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningComponentResource",
+      "isNameObsolete": false
+    },
+    "Prompt__OrderBuilder": {
+      "serverRevisionCounter": 202,
+      "lastRetrievedFromServer": null,
+      "memberType": "Prompt",
+      "isNameObsolete": false
+    },
+    "Prompt__ProductDetail": {
+      "serverRevisionCounter": 203,
+      "lastRetrievedFromServer": null,
+      "memberType": "Prompt",
+      "isNameObsolete": false
+    },
+    "Prompt__ProductExplorer": {
+      "serverRevisionCounter": 204,
+      "lastRetrievedFromServer": null,
+      "memberType": "Prompt",
+      "isNameObsolete": false
+    },
+    "PlatformEventChannelMember__ChangeEvents_Order_ChangeEvent": {
+      "serverRevisionCounter": 198,
+      "lastRetrievedFromServer": null,
+      "memberType": "PlatformEventChannelMember",
+      "isNameObsolete": false
+    },
+    "LightningMessageChannel__ProductSelected": {
+      "serverRevisionCounter": 81,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningMessageChannel",
+      "isNameObsolete": false
+    },
+    "LightningMessageChannel__ProductsFiltered": {
+      "serverRevisionCounter": 82,
+      "lastRetrievedFromServer": null,
+      "memberType": "LightningMessageChannel",
+      "isNameObsolete": false
+    },
+    "Audience__Audience": {
+      "serverRevisionCounter": 29,
+      "lastRetrievedFromServer": null,
+      "memberType": "Audience",
+      "isNameObsolete": false
+    },
+    "CustomObject__Case": {
+      "serverRevisionCounter": 39,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomObject",
+      "isNameObsolete": false
+    }
+  }
+}
