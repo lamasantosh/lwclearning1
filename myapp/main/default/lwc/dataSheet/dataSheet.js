@@ -28,13 +28,6 @@ export default class DataSheet extends LightningElement {
         });
         return alist;
     }
-    // get options2() {
-    //     let alist = [];
-    //     this.relatedLists.forEach((element) => {
-    //         alist.push({ label: element["label"], value: element["value"] });
-    //     });
-    //     return alist;
-    // }
     get selectedValues() {
         return this.checkValue.join(',');
     }
