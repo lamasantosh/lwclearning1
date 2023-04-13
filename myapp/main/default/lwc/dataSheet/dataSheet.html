@@ -35,13 +35,13 @@
                         <div class="slds-grid slds-p-bottom_small">
                             <div class="slds-size_1-of-6 slds-text-heading_small">調査員資格</div>
                                 <div class="slds-size_5-of-6">
-                                    <div class="slds-grid slds-grid_vertical">
+                                    <div class="slds-grid slds-grid_vertical get-count-check">
                                         <div class="slds-grid slds-text-heading_small">
                                             <div class="slds-size_2-of-6">土木施工管理技士</div>
                                             <template for:each={options} for:item="item">
                                                 <fieldset key={item.value} class="checkbox-option" style="display:inline-flex">
                                                     <div class="slds-form-element">
-                                                        <div class="slds-form-element__control">
+                                                         <div class="slds-form-element__control">
                                                             <div class="slds-checkbox">
                                                                 <input type="checkbox" name="options" id={item.value} value={item.value} onclick={handleChange}/>
                                                                 <label class="slds-checkbox__label slds-text_small" for={item.value}>
@@ -52,7 +52,8 @@
                                                         </div>
                                                     </div>
                                                 </fieldset>
-                                            </template>           
+                                            </template>       
+                                            <p>Selected Values are: {selectedValues}</p> 
                                         </div>
                                     </div>
                                     <div class="slds-grid slds-text-heading_small">
@@ -69,21 +70,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-
-        <div class="slds-var-m-around_medium">
-            <lightning-input 
-                type="text" 
-                label="Name"
-                placeholder="Enter Name"
-            ></lightning-input>
-            <lightning-button
-                type="submit"
-                name="submit"
-                onclick={handleClick}
-                label="Insert Data"
-            ></lightning-button>
         </div>
     </lightning-card>
 </template>
