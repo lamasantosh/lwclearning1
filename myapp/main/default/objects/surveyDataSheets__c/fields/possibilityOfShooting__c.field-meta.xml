@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>possibilityOfShooting__c</fullName>
+    <externalId>false</externalId>
+    <label>possibilityOfShooting</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>可</fullName>
+                <default>false</default>
+                <label>可</label>
+            </value>
+            <value>
+                <fullName>不可</fullName>
+                <default>false</default>
+                <label>不可</label>
+            </value>
+            <value>
+                <fullName>撮影条件有り</fullName>
+                <default>false</default>
+                <label>撮影条件有り</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>7</visibleLines>
+</CustomField>
