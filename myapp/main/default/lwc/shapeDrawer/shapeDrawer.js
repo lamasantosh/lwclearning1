@@ -38,7 +38,8 @@ export default class ShapeDrawer extends LightningElement {
         this.side3 = event.target.value;
     }
 
-    handleDrawClick() {
+    handleDrawClick(event) {
+        event.preventDefault();
         const canvas = this.template.querySelector('.canvas');
         const context = canvas.getContext('2d');
 
