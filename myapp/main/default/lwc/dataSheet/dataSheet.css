@@ -1,5 +1,6 @@
 :host{
     --display-none: inline-block;
+    --div-margin-bottom: 1rem;
 }
 
 .custom-css-for-cg  .slds-form-element__control .slds-checkbox{
@@ -16,4 +17,7 @@
 }
 .checkbox-option{
     padding-right:2rem;
+}
+.cs-margin-bottom{
+    margin-bottom: var(--div-margin-bottom);
 }

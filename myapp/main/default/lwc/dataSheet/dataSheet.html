@@ -5,7 +5,20 @@
         </h3>
         <div class="slds-grid slds-var-m-around_medium">
             <div class="slds-col slds-size_1-of-3 slds-text-heading_medium slds-p-around_x-small">
-                <span>土間床下空洞充填・沈下修正用 メインマーク株式会社 調査データシート</span>
+                <div class="cs-margin-bottom">土間床下空洞充填・沈下修正用 メインマーク株式会社 調査データシート</div>
+                <div class="slds-grid">
+                    <span class="slds-size_1-of-3">工事番号:</span>
+                    <!-- ConstructionNoInput -->
+                    <span class="slds-size_2-of-3">
+                        <lightning-input 
+                            type="text" 
+                            value=""
+                            label="constructionNo"
+                            variant = "label-hidden"
+                            disabled>
+                        </lightning-input>
+                    </span>
+                </div>
             </div>
             <div class="slds-col slds-size_2-of-3 slds-p-around_x-small">
                 <div class="slds-grid slds-grid_vertical">
@@ -52,21 +65,60 @@
                                                         </div>
                                                     </div>
                                                 </fieldset>
-                                            </template>       
-                                            <p>Selected Values are: {selectedValues}</p> 
+                                            </template>  
+                            
+                                            <!-- <p>Selected Values are: {selectedValues}</p>  -->
                                         </div>
                                     </div>
-                                    <div class="slds-grid slds-text-heading_small">
-                                        <div class="slds-size_4-of-6 myClass">測量資格</div>
-                                        <!-- <div>{sendData}</div> -->
+                                    <div class="slds-grid slds-grid_vertical get-count-check slds-p-top_small">
+                                        <div class="slds-grid slds-text-heading_small">
+                                            <div class="slds-size_2-of-6 myClass">測量資格</div>
+                                            <!-- <div>{sendData}</div> -->
+                                            <template for:each={investigatorQualificationMeasurement} for:item="item">
+                                                <fieldset key={item.value} class="checkbox-option" style="display:inline-flex">
+                                                    <div class="slds-form-element">
+                                                        <div class="slds-form-element__control">
+                                                            <div class="slds-checkbox">
+                                                                <input type="checkbox" name="options" id={item.value} value={item.value} onclick={handleChange}/>
+                                                                <label class="slds-checkbox__label slds-text_small" for={item.value}>
+                                                                    <span class="slds-checkbox_faux"></span>
+                                                                    <span class="slds-form-element__label">{item.label}</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </fieldset>
+                                            </template>  
+                                            <template if:true={showDependentField}>
+                                                <lightning-input type="text" label="Enter some text" placeholder="type here..." value=""></lightning-input>
+                                            </template>
+                                        </div>
                                     </div>
-                                    
                                     <template lwc:if={error}>
                                         <p>{errors}</p>
                                     </template>
-                                </div>
+                                
                             </div>
-                        </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- second div section start -->
+        <div class="slds-grid slds-var-m-around_medium">
+            <div class="slds-col slds-size_1-of-6 slds-p-around_x-small">
+            </div>
+            <div class="slds-col slds-size_5-of-6 slds-p-around_x-small">
+                <div class="slds-grid">
+                    <div class="slds-col slds-size_2-of-12">現場名</div>
+                    <div class="slds-col slds-size_10-of-12">
+                        <lightning-input 
+                        type="text" 
+                        label="siteName"
+                        variant = "label-hidden"
+                        placeholder="Enter Name"
+                        disabled
+                        ></lightning-input>
                     </div>
                 </div>
             </div>

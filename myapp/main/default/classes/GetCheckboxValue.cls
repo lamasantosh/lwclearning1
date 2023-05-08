@@ -1,5 +1,26 @@
 public class GetCheckboxValue {
-   // @AuraEnabled(cacheable=true)
+    @AuraEnabled(cacheable=true)
+    public static List<String> getPicklistValues() {
+        List<String> options = new List<String>();
+        Schema.DescribeFieldResult fieldResult01 = surveyDataSheets__c.investigatorQualificationErLevel__c.getDescribe();
+        List<Schema.PicklistEntry> pickListEntry01 = fieldResult01.getPicklistValues();
+
+        for (Schema.PicklistEntry entry : pickListEntry01) {
+            options.add(entry.getLabel());
+        }
+        return options;
+    }
+    @AuraEnabled(cacheable=true)
+    public static List<String> getinvestigatorQualificationMeasurement() {
+        List<String> options = new List<String>();
+        Schema.DescribeFieldResult fieldResult01 = surveyDataSheets__c.investigatorQualificationMeasurement__c.getDescribe();
+        List<Schema.PicklistEntry> pickListEntry01 = fieldResult01.getPicklistValues();
+
+        for (Schema.PicklistEntry entry : pickListEntry01) {
+            options.add(entry.getLabel());
+        }
+        return options;
+    }
         //Create a variable for datasheet data to enter
         // datasheet__c ds = new datasheet__c();
         // public class Selection {
