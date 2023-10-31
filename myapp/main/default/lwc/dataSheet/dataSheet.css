@@ -1,6 +1,7 @@
 :host{
     --display-none: inline-block;
     --div-margin-bottom: 1rem;
+    --border-radius: 50px;
 }
 
 .custom-css-for-cg  .slds-form-element__control .slds-checkbox{
@@ -20,4 +21,12 @@
 }
 .cs-margin-bottom{
     margin-bottom: var(--div-margin-bottom);
+}
+.whole-data-cover{
+    display:grid;
+}
+.for-round-image img{
+    border-radius: var(--border-radius);
+    height:75px;
+    width:75px;
 }

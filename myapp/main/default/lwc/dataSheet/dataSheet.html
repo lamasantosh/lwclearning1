@@ -123,5 +123,80 @@
                 </div>
             </div>
         </div>
+        <div class="slds-grid slds-var-m-around_medium">
+            <div class="slds-col slds-size_6-of-6 slds-p-around_x-small">
+                <div class="slds-grid slds-gutters">
+                    <div class="slds-col slds-size_3-of-12">
+                        <lightning-combobox
+                        name="kikaimei"
+                        label="select the Kikai Mei"
+                        placeholder="- Select -"
+                        options={kikaiMeiOptions}
+                        onchange={handleKikaiOptions}
+                        ></lightning-combobox>
+                    </div>
+                    <div class="slds-col slds-size_3-of-12">
+                        <lightning-input
+                            type="date"
+                            label="Select a Date"
+                            value={selectedDate}
+                            onchange={handleDateChange}
+                        ></lightning-input>
+                    </div>
+                    <div class="slds-col slds-size_3-of-12">     
+                        <lightning-combobox
+                        name="datasheet"
+                        label="select the datasheet Mei"
+                        placeholder="- Select -"
+                        options={dataSheetOptions}
+                        onchange={handleDatasheetOptions}
+                        ></lightning-combobox>
+                    </div>
+                    <div class="slds-col slds-size_3-of-12">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slds-grid slds-var-m-around_medium">
+            <div class="slds-col solds-size_6-of-6 slds-p-around_x-small">
+                <div class="slds-col solds-size_12-of-12">
+                    <template for:each={data2} for:item="da2">
+                        <div key={da2.Id}>
+                            <span class="slds-grid">
+                                <span class="slds-col">{da2.Name}</span>
+                                <span class="slds-col">{da2.hidzuke__c}</span>
+                                <span class="slds-col">{da2.pre_process_cutmachine_name__c}</span>
+                                <span class="slds-col for-round-image">
+                                    <img
+                                    src={da2.danmen__c}
+                                    alt="user image"/>
+                                </span>
+                            </span>
+                            <!-- Add more fields you want to display -->
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </div>
+        <div class="slds-grid slds-var-m-around_medium">
+            <div class="slds-col slds-size_6-of-6 slds-p-around_x-small">
+                <lightning-datatable
+                    key-field="id"
+                    data={data}
+                    columns={columns}
+                    hide-checkbox-column
+                    onrowaction={handleRowAction}>
+                </lightning-datatable>
+            </div>
+        </div>
+        <div class="slds-grid slds-var-m-around_medium">
+            <div class="slds-col slds-size_6-of-6 slds-p-around_x-small">
+                <img
+                    src="https://platform-energy-87902-dev-ed.scratch.file.force.com/servlet/rtaImage?eid=a011y000006Jz3I&feoid=00N1y00000He5cU&refid=0EM1y000000L3MC"
+                    alt="user image"
+                    height="100px"
+                    width="100px"/>
+            </div>
+        </div>
     </lightning-card>
 </template>
