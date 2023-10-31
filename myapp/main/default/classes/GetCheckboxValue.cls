@@ -21,6 +21,27 @@ public class GetCheckboxValue {
         }
         return options;
     }
+    @AuraEnabled(cacheable=true)
+    public static list<String> getPreProcessCutMachineName(){
+        List<String> options = new List<String>();
+        Schema.DescribeFieldResult fieldResult01 = datasheet__c.pre_process_cutmachine_name__c.getDescribe();
+        List<Schema.PicklistEntry> pickListEntry01 = fieldResult01.getPicklistValues();
+
+        for (Schema.PicklistEntry entry : pickListEntry01) {
+            options.add(entry.getLabel());
+        }
+        return options;
+        
+    }
+
+
+    /*@AuraEnabled(cacheable = true)
+    public static list<datasheet__c> getSoqlData(){
+        list<datasheet__c> soqlData = new List<datasheet__c>();
+        soqlData = [SELECT Name, property__c, pre_process_cutmchine_name__c, hidzuke__c
+                    FROM datasheet__c
+                    WHERE ];
+    }*/
         //Create a variable for datasheet data to enter
         // datasheet__c ds = new datasheet__c();
         // public class Selection {
