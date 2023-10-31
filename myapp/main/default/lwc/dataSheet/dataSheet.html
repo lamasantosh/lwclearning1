@@ -5,7 +5,20 @@
         </h3>
         <div class="slds-grid slds-var-m-around_medium">
             <div class="slds-col slds-size_1-of-3 slds-text-heading_medium slds-p-around_x-small">
-                <span>土間床下空洞充填・沈下修正用 メインマーク株式会社 調査データシート</span>
+                <div class="cs-margin-bottom">土間床下空洞充填・沈下修正用 メインマーク株式会社 調査データシート</div>
+                <div class="slds-grid">
+                    <span class="slds-size_1-of-3">工事番号:</span>
+                    <!-- ConstructionNoInput -->
+                    <span class="slds-size_2-of-3">
+                        <lightning-input 
+                            type="text" 
+                            value=""
+                            label="constructionNo"
+                            variant = "label-hidden"
+                            disabled>
+                        </lightning-input>
+                    </span>
+                </div>
             </div>
             <div class="slds-col slds-size_2-of-3 slds-p-around_x-small">
                 <div class="slds-grid slds-grid_vertical">
@@ -34,51 +47,156 @@
                     <div class="slds-col">
                         <div class="slds-grid slds-p-bottom_small">
                             <div class="slds-size_1-of-6 slds-text-heading_small">調査員資格</div>
-                            <div class="slds-size_5-of-6">
-                                <div class="slds-grid slds-grid_vertical">
-                                    <div class="slds-grid slds-text-heading_small">
-                                        <div class="slds-size_2-of-6">土木施工管理技士</div>
-                                        <div>{reco}</div>
+                                <div class="slds-size_5-of-6">
+                                    <div class="slds-grid slds-grid_vertical get-count-check">
+                                        <div class="slds-grid slds-text-heading_small">
+                                            <div class="slds-size_2-of-6">土木施工管理技士</div>
+                                            <template for:each={options} for:item="item">
+                                                <fieldset key={item.value} class="checkbox-option" style="display:inline-flex">
+                                                    <div class="slds-form-element">
+                                                         <div class="slds-form-element__control">
+                                                            <div class="slds-checkbox">
+                                                                <input type="checkbox" name="options" id={item.value} value={item.value} onclick={handleChange}/>
+                                                                <label class="slds-checkbox__label slds-text_small" for={item.value}>
+                                                                    <span class="slds-checkbox_faux"></span>
+                                                                    <span class="slds-form-element__label">{item.label}</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </fieldset>
+                                            </template>  
+                            
+                                            <!-- <p>Selected Values are: {selectedValues}</p>  -->
+                                        </div>
                                     </div>
-                                    <div class="slds-grid slds-text-heading_small">
-                                        <div class="slds-size_4-of-6">測量資格</div>
-                                        <div>測量士</div>
-                                        <!-- <div>{sendData}</div> -->
-  
-                                                <lightning-checkbox-group
-                                                    name="checkbox Group"
-                                                    label="Checkbox Group"
-                                                    options={options}
-                                                    value={value}
-                                                    required
-                                             ></lightning-checkbox-group>
-                                        <lightning-card title="Handle Error" icon-name="standard:contact">
-                                            <template lwc:if={error}>
-                                                <p>{errors}</p>
+                                    <div class="slds-grid slds-grid_vertical get-count-check slds-p-top_small">
+                                        <div class="slds-grid slds-text-heading_small">
+                                            <div class="slds-size_2-of-6 myClass">測量資格</div>
+                                            <!-- <div>{sendData}</div> -->
+                                            <template for:each={investigatorQualificationMeasurement} for:item="item">
+                                                <fieldset key={item.value} class="checkbox-option" style="display:inline-flex">
+                                                    <div class="slds-form-element">
+                                                        <div class="slds-form-element__control">
+                                                            <div class="slds-checkbox">
+                                                                <input type="checkbox" name="options" id={item.value} value={item.value} onclick={handleChange}/>
+                                                                <label class="slds-checkbox__label slds-text_small" for={item.value}>
+                                                                    <span class="slds-checkbox_faux"></span>
+                                                                    <span class="slds-form-element__label">{item.label}</span>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </fieldset>
+                                            </template>  
+                                            <template if:true={showDependentField}>
+                                                <lightning-input type="text" label="Enter some text" placeholder="type here..." value=""></lightning-input>
                                             </template>
-                                        </lightning-card>
+                                        </div>
                                     </div>
-                                </div>
+                                    <template lwc:if={error}>
+                                        <p>{errors}</p>
+                                    </template>
+                                
                             </div>
-                        </div>
+                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-
-        <div class="slds-var-m-around_medium">
-            <lightning-input 
-                type="text" 
-                label="Name"
-                placeholder="Enter Name"
-            ></lightning-input>
-            <lightning-button
-                type="submit"
-                name="submit"
-                onclick={handleClick}
-                label="Insert Data"
-            ></lightning-button>
+        <!-- second div section start -->
+        <div class="slds-grid slds-var-m-around_medium">
+            <div class="slds-col slds-size_1-of-6 slds-p-around_x-small">
+            </div>
+            <div class="slds-col slds-size_5-of-6 slds-p-around_x-small">
+                <div class="slds-grid">
+                    <div class="slds-col slds-size_2-of-12">現場名</div>
+                    <div class="slds-col slds-size_10-of-12">
+                        <lightning-input 
+                        type="text" 
+                        label="siteName"
+                        variant = "label-hidden"
+                        placeholder="Enter Name"
+                        disabled
+                        ></lightning-input>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slds-grid slds-var-m-around_medium">
+            <div class="slds-col slds-size_6-of-6 slds-p-around_x-small">
+                <div class="slds-grid slds-gutters">
+                    <div class="slds-col slds-size_3-of-12">
+                        <lightning-combobox
+                        name="kikaimei"
+                        label="select the Kikai Mei"
+                        placeholder="- Select -"
+                        options={kikaiMeiOptions}
+                        onchange={handleKikaiOptions}
+                        ></lightning-combobox>
+                    </div>
+                    <div class="slds-col slds-size_3-of-12">
+                        <lightning-input
+                            type="date"
+                            label="Select a Date"
+                            value={selectedDate}
+                            onchange={handleDateChange}
+                        ></lightning-input>
+                    </div>
+                    <div class="slds-col slds-size_3-of-12">     
+                        <lightning-combobox
+                        name="datasheet"
+                        label="select the datasheet Mei"
+                        placeholder="- Select -"
+                        options={dataSheetOptions}
+                        onchange={handleDatasheetOptions}
+                        ></lightning-combobox>
+                    </div>
+                    <div class="slds-col slds-size_3-of-12">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slds-grid slds-var-m-around_medium">
+            <div class="slds-col solds-size_6-of-6 slds-p-around_x-small">
+                <div class="slds-col solds-size_12-of-12">
+                    <template for:each={data2} for:item="da2">
+                        <div key={da2.Id}>
+                            <span class="slds-grid">
+                                <span class="slds-col">{da2.Name}</span>
+                                <span class="slds-col">{da2.hidzuke__c}</span>
+                                <span class="slds-col">{da2.pre_process_cutmachine_name__c}</span>
+                                <span class="slds-col for-round-image">
+                                    <img
+                                    src={da2.danmen__c}
+                                    alt="user image"/>
+                                </span>
+                            </span>
+                            <!-- Add more fields you want to display -->
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </div>
+        <div class="slds-grid slds-var-m-around_medium">
+            <div class="slds-col slds-size_6-of-6 slds-p-around_x-small">
+                <lightning-datatable
+                    key-field="id"
+                    data={data}
+                    columns={columns}
+                    hide-checkbox-column
+                    onrowaction={handleRowAction}>
+                </lightning-datatable>
+            </div>
+        </div>
+        <div class="slds-grid slds-var-m-around_medium">
+            <div class="slds-col slds-size_6-of-6 slds-p-around_x-small">
+                <img
+                    src="https://platform-energy-87902-dev-ed.scratch.file.force.com/servlet/rtaImage?eid=a011y000006Jz3I&feoid=00N1y00000He5cU&refid=0EM1y000000L3MC"
+                    alt="user image"
+                    height="100px"
+                    width="100px"/>
+            </div>
         </div>
     </lightning-card>
 </template>

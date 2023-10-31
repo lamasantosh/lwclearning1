@@ -1,0 +1,40 @@
+<template>
+    <lightning-card>
+
+        <form>
+          <label>Shape Type:</label>
+          <select onchange={handleShapeTypeChange}>
+            <option value="rectangle">Rectangle</option>
+            <option value="circle">Circle</option>
+            <option value="triangle">Triangle</option>
+          </select>
+          <br />
+          <template if:true={isRectangle}>
+            <label>Width:</label>
+            <input type="number" min="0" oninput={handleWidthChange} />
+            <br />
+            <label>Height:</label>
+            <input type="number" min="0" oninput={handleHeightChange} />
+          </template>
+          <template if:true={isCircle}>
+            <label>Radius:</label>
+            <input type="number" min="0" oninput={handleRadiusChange} />
+          </template>
+          <template if:true={isTriangle}>
+            <label>Side 1:</label>
+            <input type="number" min="0" oninput={handleSide1Change} />
+            <br />
+            <label>Side 2:</label>
+            <input type="number" min="0" oninput={handleSide2Change} />
+            <br />
+            <label>Side 3:</label>
+            <input type="number" min="0" oninput={handleSide3Change} />
+          </template>
+          <br />
+          <button onclick={handleDrawClick}>Draw Shape</button>
+        </form>
+    </lightning-card>
+    <lightning-card>
+      <canvas class="canvas" width="400" height="400"></canvas>
+    </lightning-card>
+  </template>

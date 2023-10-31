@@ -1,4 +1,32 @@
-.slds-form-element__label {
-    display : none;
-    visibility : hidden;
+:host{
+    --display-none: inline-block;
+    --div-margin-bottom: 1rem;
+    --border-radius: 50px;
+}
+
+.custom-css-for-cg  .slds-form-element__control .slds-checkbox{
+    display: var(--display-none);
+}
+.custom-css-for-cg {
+    display:var(--display-none);
+}
+.THIS .slds-form-element__control {
+    display: inline-block!important;
+ }
+.THIS .slds-checkbox{
+    display:inline-block!important;
+}
+.checkbox-option{
+    padding-right:2rem;
+}
+.cs-margin-bottom{
+    margin-bottom: var(--div-margin-bottom);
+}
+.whole-data-cover{
+    display:grid;
+}
+.for-round-image img{
+    border-radius: var(--border-radius);
+    height:75px;
+    width:75px;
 }

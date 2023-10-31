@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>sootingItemsInputCb__c</fullName>
+    <externalId>false</externalId>
+    <label>sootingItemsInputCb</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>建物全景</fullName>
+                <default>false</default>
+                <label>建物全景</label>
+            </value>
+            <value>
+                <fullName>現場全景</fullName>
+                <default>false</default>
+                <label>現場全景</label>
+            </value>
+            <value>
+                <fullName>沈下状況</fullName>
+                <default>false</default>
+                <label>沈下状況</label>
+            </value>
+            <value>
+                <fullName>設備・資材等配置状況</fullName>
+                <default>false</default>
+                <label>設備・資材等配置状況</label>
+            </value>
+            <value>
+                <fullName>床の状況（傾き具合　/　ひび割れ　/　段差　/　損傷具合　など）</fullName>
+                <default>false</default>
+                <label>床の状況（傾き具合　/　ひび割れ　/　段差　/　損傷具合　など）</label>
+            </value>
+            <value>
+                <fullName>現場の状況（建付け・間仕切り壁の開口 / 什器調整 / 床仕上げ／メザニン　など）</fullName>
+                <default>false</default>
+                <label>現場の状況（建付け・間仕切り壁の開口 / 什器調整 / 床仕上げ／メザニン　など）</label>
+            </value>
+            <value>
+                <fullName>埋設関係（電気、ガス、エアー、上水、下水・排水、ピット　など）</fullName>
+                <default>false</default>
+                <label>埋設関係（電気、ガス、エアー、上水、下水・排水、ピット　など）</label>
+            </value>
+            <value>
+                <fullName>補修等箇所（修復範囲、現況　など）</fullName>
+                <default>false</default>
+                <label>補修等箇所（修復範囲、現況　など）</label>
+            </value>
+            <value>
+                <fullName>測量基準点（KBM、BMなど）</fullName>
+                <default>false</default>
+                <label>測量基準点（KBM、BMなど）</label>
+            </value>
+            <value>
+                <fullName>工事関係（プラント設置箇所、進入路　など）</fullName>
+                <default>false</default>
+                <label>工事関係（プラント設置箇所、進入路　など）</label>
+            </value>
+            <value>
+                <fullName>その他工事に必要な情報</fullName>
+                <default>false</default>
+                <label>その他工事に必要な情報</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

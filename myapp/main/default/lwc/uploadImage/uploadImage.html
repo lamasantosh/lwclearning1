@@ -1,0 +1,17 @@
+<template>
+    <lightning-card>
+        <lightning-layout>
+            <lightning-layout-item>
+                <lightning-file-upload
+                    label="Attach Image"
+                    name="imageUploader"
+                    accept=".jpg,.jpeg,.png"
+                    record-id={recordId}
+                    onuploadfinished={handleImageUpload}
+                    multiple
+                >
+                </lightning-file-upload>
+            </lightning-layout-item>
+        </lightning-layout>
+    </lightning-card>
+</template>
